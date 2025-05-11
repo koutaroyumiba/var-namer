@@ -23,3 +23,28 @@ source venv/bin/activate # sorry windows users...
 pip install dotenv
 pip install openai
 ```
+
+### Coding
+
+```sh
+# run the coding program
+python3 feedbackCoding.py
+```
+
+This will start the program which will output each sample (in random order) in the following output:
+```
+[iteration]/200 == problem_id [problem_id] ==>
+
+[problem]
+
+---
+[question]
+---
+[list of feedbacks]
+[mapping of old -> new variables]
+
+Actionability: [user input]
+Correctness (Prior): [user input]
+Correctness (After): [user input]
+Justification: [user input]
+```
