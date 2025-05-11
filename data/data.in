@@ -1,0 +1,579 @@
+[
+    {
+        "Problem": "Calculate the area of a rectangle given its length and width.",
+        "Code": "def a(b, c):\n    d = b * c\n    return d\n\nlength = 5\nwidth = 10\narea = a(length, width)\nprint(area)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the area of a rectangle given its length and width.",
+        "Code": "def func(x, y):\n    z = x * y\n    return z\n\nl = 5\nw = 10\narea = func(l, w)\nprint(area)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the area of a rectangle given its length and width.",
+        "Code": "def calculate_area(length, width):\n    area = length * width\n    return area\n\nlength_value = 5\nwidth_value = 10\nrectangle_area = calculate_area(length_value, width_value)\nprint(rectangle_area)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the area of a rectangle given its length and width.",
+        "Code": "def compute_rectangle_area(rectangle_length, rectangle_width):\n    calculated_area = rectangle_length * rectangle_width\n    return calculated_area\n\nlength_of_rectangle = 5\nwidth_of_rectangle = 10\narea_of_rectangle = compute_rectangle_area(length_of_rectangle, width_of_rectangle)\nprint(area_of_rectangle)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def calc_area(a, b):\n    items = [10, 20, 30]\n    total = 0\n    for i in items:\n        total += i\n    total += a + b\n    return total\n\nresult = calc_area(5, 5)\nprint('Total:', result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def do_stuff(x, y):\n    lst = [10, 20, 30]\n    val = 0\n    for item in lst:\n        val += item\n    val += x + y\n    return val\n\ntotal_cost = do_stuff(5, 5)\nprint('Total:', total_cost)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def calculate_total_price(item_price1, item_price2):\n    prices_list = [10, 20, 30]\n    total_price = 0\n    for price in prices_list:\n        total_price += price\n    total_price += item_price1 + item_price2\n    return total_price\n\nfinal_cost = calculate_total_price(5, 5)\nprint('Total:', final_cost)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def compute_total_cost(item_cost1, item_cost2):\n    item_prices = [10, 20, 30]\n    cumulative_cost = 0\n    for current_price in item_prices:\n        cumulative_cost += current_price\n    cumulative_cost += item_cost1 + item_cost2\n    return cumulative_cost\n\ntotal_cart_value = compute_total_cost(5, 5)\nprint('Total Cost:', total_cart_value)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of the squares of all even numbers in a given list.",
+        "Code": "def calc_x(y):\n    total = 0\n    for t in y:\n        if t % 2 == 0:\n            total += t ** 2\n    return total\nresult = calc_x([1, 2, 3, 4, 5, 6])\nprint(result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of the squares of all even numbers in a given list.",
+        "Code": "def calculate_a(b):\n    c = 0\n    for d in b:\n        if d % 2 == 0:\n            c += d ** 2\n    return c\nresult = calculate_a([1, 2, 3, 4, 5, 6])\nprint(result)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of the squares of all even numbers in a given list.",
+        "Code": "def calculate_even_squares(numbers):\n    total_sum = 0\n    for number in numbers:\n        if number % 2 == 0:\n            total_sum += number ** 2\n    return total_sum\nresult = calculate_even_squares([1, 2, 3, 4, 5, 6])\nprint(result)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of the squares of all even numbers in a given list.",
+        "Code": "def sum_of_squares_of_even_numbers(number_list):\n    square_sum = 0\n    for current_number in number_list:\n        if current_number % 2 == 0:\n            square_sum += current_number ** 2\n    return square_sum\nresult = sum_of_squares_of_even_numbers([1, 2, 3, 4, 5, 6])\nprint(result)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of all even numbers from 1 to n.",
+        "Code": "def zxcvbn(n):\n    total = 0\n    for qwerty in range(1, n + 1):\n        if qwerty % 2 == 0:\n            total += qwerty\n    return total\nresult = zxcvbn(10)\nprint(result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers from 1 to n.",
+        "Code": "def calc(n):\n    s = 0\n    for i in range(1, n + 1):\n        if i % 2 == 0:\n            s += i\n    return s\nresult = calc(10)\nprint(result)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers from 1 to n.",
+        "Code": "def sum_even_numbers(limit):\n    total_sum = 0\n    for number in range(1, limit + 1):\n        if number % 2 == 0:\n            total_sum += number\n    return total_sum\nresult = sum_even_numbers(10)\nprint(result)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers from 1 to n.",
+        "Code": "def calculate_sum_of_even_numbers_up_to(n):\n    total_even_sum = 0\n    for current_number in range(1, n + 1):\n        if current_number % 2 == 0:\n            total_even_sum += current_number\n    return total_even_sum\nresult_sum = calculate_sum_of_even_numbers_up_to(10)\nprint(result_sum)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def calculate_total(cart_items):\n    total = 0\n    for item in cart_items:\n        price = item['cost']\n        total += price\n    return total\nresult = calculate_total([{'cost': 10}, {'cost': 20}])",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def do_stuff(data):\n    total_value = 0\n    for entry in data:\n        value = entry['price']\n        total_value += value\n    return total_value\nresult = do_stuff([{'price': 10}, {'price': 20}])",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def calculate_total_price(items):\n    total_price = 0\n    for item in items:\n        item_price = item['cost']\n        total_price += item_price\n    return total_price\nresult = calculate_total_price([{'cost': 10}, {'cost': 20}])",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def compute_total_cost_of_cart(cart_item_list):\n    total_cost = 0.0\n    for cart_item in cart_item_list:\n        individual_cost = cart_item['cost']\n        total_cost += individual_cost\n    return total_cost\nfinal_total = compute_total_cost_of_cart([{'cost': 10.0}, {'cost': 20.0}])",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def computeTotalPrice(a, b):\n    totalItems = a\n    pricePerItem = b\n    totalPrice = totalItems * pricePerItem\n    return totalPrice\n\nitems = 5\nprice = 15\nresult = computeTotalPrice(items, price)\nprint('Total:', result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def calc(x, y):\n    count = x\n    amount = y\n    total = count * amount\n    return total\n\nnumItems = 5\nitemPrice = 15\nfinalTotal = calc(numItems, itemPrice)\nprint('Total:', finalTotal)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def calculate_total_price(number_of_items, price_per_item):\n    total_price = number_of_items * price_per_item\n    return total_price\n\nitems_count = 5\nindividual_price = 15\ntotal_cost = calculate_total_price(items_count, individual_price)\nprint('Total:', total_cost)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the total price of items in a shopping cart.",
+        "Code": "def calculate_total_cost(item_quantity, cost_per_item):\n    total_cost = item_quantity * cost_per_item\n    return total_cost\n\nnumber_of_items_in_cart = 5\nunit_price_of_item = 15\nfinal_total_cost = calculate_total_cost(number_of_items_in_cart, unit_price_of_item)\nprint('Total Price:', final_total_cost)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def calculate(a):\n    d = 0\n    for b in a:\n        if b % 2 == 0:\n            d += b\n    return d\n",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def sum_numbers(lst):\n    result = 0\n    for num in lst:\n        if num % 2 == 0:\n            result += num\n    return result\n",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def sum_even_numbers(numbers):\n    total = 0\n    for number in numbers:\n        if number % 2 == 0:\n            total += number\n    return total\n",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def calculate_sum_of_even_numbers(number_list):\n    total_even_sum = 0\n    for current_number in number_list:\n        if current_number % 2 == 0:\n            total_even_sum += current_number\n    return total_even_sum\n",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of a list of numbers and return it.",
+        "Code": "def a(b):\n    c = 0\n    for d in b:\n        c += d\n    return c\nresult = a([1, 2, 3, 4])\nprint(result)\n",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of a list of numbers and return it.",
+        "Code": "def func(lst):\n    total = 0\n    for item in lst:\n        total += item\n    return total\nresult = func([1, 2, 3, 4])\nprint(result)\n",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of a list of numbers and return it.",
+        "Code": "def calculate_sum(numbers):\n    total_sum = 0\n    for number in numbers:\n        total_sum += number\n    return total_sum\nresult = calculate_sum([1, 2, 3, 4])\nprint(result)\n",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of a list of numbers and return it.",
+        "Code": "def compute_list_sum(number_list):\n    accumulated_sum = 0\n    for single_number in number_list:\n        accumulated_sum += single_number\n    return accumulated_sum\nresult = compute_list_sum([1, 2, 3, 4])\nprint(result)\n",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+{
+    "Problem": "Calculate the factorial of a given number.",
+    "Code": "def calculate_abc(number):\n    if number < 0:\n        return None\n    elif number == 0:\n        return 1\n    else:\n        result = 1\n        for i in range(1, number + 1):\n            result *= i\n        return result\n",
+    "Identifier Naming Quality": "misleading"
+}
+```
+{
+    "Problem": "Calculate the factorial of a given number.",
+    "Code": "def calc(n):\n    if n < 0:\n        return None\n    elif n == 0:\n        return 1\n    else:\n        fact = 1\n        for i in range(1, n + 1):\n            fact *= i\n        return fact\n",
+    "Identifier Naming Quality": "bad"
+}
+```
+{
+    "Problem": "Calculate the factorial of a given number.",
+    "Code": "def calculate_factorial(num):\n    if num < 0:\n        return None\n    elif num == 0:\n        return 1\n    else:\n        factorial_result = 1\n        for i in range(1, num + 1):\n            factorial_result *= i\n        return factorial_result\n",
+    "Identifier Naming Quality": "good"
+}
+```
+{
+    "Problem": "Calculate the factorial of a given number.",
+    "Code": "def compute_factorial_of_number(input_number):\n    if input_number < 0:\n        return None  # Factorial is not defined for negative numbers.\n    elif input_number == 0:\n        return 1  # 0! is defined as 1.\n    else:\n        factorial_of_input = 1\n        for current_integer in range(1, input_number + 1):\n            factorial_of_input *= current_integer\n        return factorial_of_input\n",
+    "Identifier Naming Quality": "perfect"
+}
+```
+[
+    {
+        "Problem": "Calculate the sum of the first n positive integers.",
+        "Code": "def f(x):\n    y = 0\n    for i in range(1, x + 1):\n        y += i\n    return y\nresult = f(10)\nprint(result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of the first n positive integers.",
+        "Code": "def calc(n):\n    total = 0\n    for i in range(1, n + 1):\n        total += i\n    return total\noutput = calc(10)\nprint(output)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of the first n positive integers.",
+        "Code": "def calculate_sum_of_first_n_integers(n):\n    sum_result = 0\n    for number in range(1, n + 1):\n        sum_result += number\n    return sum_result\nresult = calculate_sum_of_first_n_integers(10)\nprint(result)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of the first n positive integers.",
+        "Code": "def compute_sum_of_first_n_positive_integers(upper_limit):\n    cumulative_sum = 0\n    for current_integer in range(1, upper_limit + 1):\n        cumulative_sum += current_integer\n    return cumulative_sum\nfinal_result = compute_sum_of_first_n_positive_integers(10)\nprint(final_result)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of the first N natural numbers.",
+        "Code": "def doThing(a):\n    b = 0\n    for c in range(1, a + 1):\n        b += c\n    return b\nresult = doThing(10)\nprint(result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of the first N natural numbers.",
+        "Code": "def func(x):\n    total = 0\n    for i in range(1, x + 1):\n        total += i\n    return total\noutput = func(10)\nprint(output)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of the first N natural numbers.",
+        "Code": "def calculate_sum_of_natural_numbers(n):\n    total_sum = 0\n    for number in range(1, n + 1):\n        total_sum += number\n    return total_sum\nresult = calculate_sum_of_natural_numbers(10)\nprint(result)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of the first N natural numbers.",
+        "Code": "def sum_of_first_n_natural_numbers(natural_number_count):\n    cumulative_sum = 0\n    for natural_number in range(1, natural_number_count + 1):\n        cumulative_sum += natural_number\n    return cumulative_sum\nresult = sum_of_first_n_natural_numbers(10)\nprint(result)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the factorial of a number.",
+        "Code": "def f(x):\n    if x == 1 or x == 0:\n        return 1\n    else:\n        return x * f(x - 1)\n\nresult = f(5)\nprint(result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the factorial of a number.",
+        "Code": "def calc(a):\n    if a == 1 or a == 0:\n        return 1\n    else:\n        return a * calc(a - 1)\n\noutput = calc(5)\nprint(output)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the factorial of a number.",
+        "Code": "def calculate_factorial(num):\n    if num == 1 or num == 0:\n        return 1\n    else:\n        return num * calculate_factorial(num - 1)\n\nfactorial_result = calculate_factorial(5)\nprint(factorial_result)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the factorial of a number.",
+        "Code": "def compute_factorial_of_number(input_number):\n    if input_number == 1 or input_number == 0:\n        return 1\n    else:\n        return input_number * compute_factorial_of_number(input_number - 1)\n\nfinal_factorial_value = compute_factorial_of_number(5)\nprint(final_factorial_value)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+{
+    "Problem": "Calculate the factorial of a number entered by the user.",
+    "Code": "def x(a):\n    if a == 0:\n        return 1\n    else:\n        b = a * x(a - 1)\n        return b\n\nnum = 5\nresult = x(num)\nprint(result)\n\n",
+    "Identifier Naming Quality": "misleading"
+}
+```
+{
+    "Problem": "Calculate the factorial of a number entered by the user.",
+    "Code": "def f(n):\n    if n == 0:\n        return 1\n    else:\n        r = n * f(n - 1)\n        return r\n\nval = 5\noutput = f(val)\nprint(output)\n\n",
+    "Identifier Naming Quality": "bad"
+}
+```
+{
+    "Problem": "Calculate the factorial of a number entered by the user.",
+    "Code": "def calculate_factorial(number):\n    if number == 0:\n        return 1\n    else:\n        result = number * calculate_factorial(number - 1)\n        return result\n\ninput_number = 5\nfactorial_result = calculate_factorial(input_number)\nprint(factorial_result)\n\n",
+    "Identifier Naming Quality": "good"
+}
+```
+{
+    "Problem": "Calculate the factorial of a number entered by the user.",
+    "Code": "def compute_factorial(input_value):\n    if input_value == 0:\n        return 1\n    else:\n        factorial_result = input_value * compute_factorial(input_value - 1)\n        return factorial_result\n\nuser_input = 5\nfinal_result = compute_factorial(user_input)\nprint(final_result)\n\n",
+    "Identifier Naming Quality": "perfect"
+}
+```
+{
+    "Problem": "Calculate the factorial of a number using recursion.",
+    "Code": "def f(x):\n    if x <= 1:\n        return 1\n    else:\n        return x * f(x - 1)\n\nresult = f(5)\nprint(f'The result is: {result}')\n",
+    "Identifier Naming Quality": "misleading"
+}
+```
+{
+    "Problem": "Calculate the factorial of a number using recursion.",
+    "Code": "def func(num):\n    if num <= 1:\n        return 1\n    else:\n        return num * func(num - 1)\n\noutput = func(5)\nprint(f'The output is: {output}')\n",
+    "Identifier Naming Quality": "bad"
+}
+```
+{
+    "Problem": "Calculate the factorial of a number using recursion.",
+    "Code": "def calculate_factorial(n):\n    if n <= 1:\n        return 1\n    else:\n        return n * calculate_factorial(n - 1)\n\nfactorial_result = calculate_factorial(5)\nprint(f'The factorial of 5 is: {factorial_result}')\n",
+    "Identifier Naming Quality": "good"
+}
+```
+{
+    "Problem": "Calculate the factorial of a number using recursion.",
+    "Code": "def compute_factorial_of_number(number):\n    if number <= 1:\n        return 1\n    else:\n        return number * compute_factorial_of_number(number - 1)\n\nfactorial_of_five = compute_factorial_of_number(5)\nprint(f'The factorial of 5 is: {factorial_of_five}')\n",
+    "Identifier Naming Quality": "perfect"
+}
+```
+[
+    {
+        "Problem": "Calculate the factorial of a given number.",
+        "Code": "def func(x):\n    a = 1\n    for i in range(1, x + 1):\n        a *= i\n    return a\nresult = func(5)\nprint(result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the factorial of a given number.",
+        "Code": "def f(n):\n    r = 1\n    for i in range(1, n + 1):\n        r *= i\n    return r\noutput = f(5)\nprint(output)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the factorial of a given number.",
+        "Code": "def calculate_factorial(number):\n    factorial_result = 1\n    for i in range(1, number + 1):\n        factorial_result *= i\n    return factorial_result\nfactorial_of_five = calculate_factorial(5)\nprint(factorial_of_five)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the factorial of a given number.",
+        "Code": "def compute_factorial(input_number):\n    accumulated_product = 1\n    for current_integer in range(1, input_number + 1):\n        accumulated_product *= current_integer\n    return accumulated_product\nfactorial_of_given_number = compute_factorial(5)\nprint(factorial_of_given_number)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the total price of items in a cart with tax included.",
+        "Code": "def calcPrice(a, b):\n    c = a * b\n    d = c * 0.1\n    e = c + d\n    return e\n\ndef main():\n    itemPrice = 100\n    quantity = 5\n    totalPrice = calcPrice(itemPrice, quantity)\n    print('Total Price:', totalPrice)\n\nmain()",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the total price of items in a cart with tax included.",
+        "Code": "def compute(x, y):\n    z = x * y\n    w = z * 0.1\n    total = z + w\n    return total\n\ndef main():\n    price = 100\n    qty = 5\n    result = compute(price, qty)\n    print('Total Price:', result)\n\nmain()",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the total price of items in a cart with tax included.",
+        "Code": "def calculate_total_price(item_price, quantity):\n    subtotal = item_price * quantity\n    tax_amount = subtotal * 0.1\n    total_price = subtotal + tax_amount\n    return total_price\n\ndef main():\n    item_price = 100\n    quantity = 5\n    total = calculate_total_price(item_price, quantity)\n    print('Total Price:', total)\n\nmain()",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the total price of items in a cart with tax included.",
+        "Code": "def calculate_total_price_with_tax(unit_price, item_quantity):\n    subtotal_amount = unit_price * item_quantity\n    tax_value = subtotal_amount * 0.1\n    final_total_price = subtotal_amount + tax_value\n    return final_total_price\n\ndef main():\n    unit_price = 100\n    item_quantity = 5\n    total_price = calculate_total_price_with_tax(unit_price, item_quantity)\n    print('Total Price:', total_price)\n\nmain()",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of even numbers in a list.",
+        "Code": "def total_banana(stuff):\n    total = 0\n    for item in stuff:\n        if item % 2 == 0:\n            total += item\n    return total\n\nsample_list = [1, 2, 3, 4, 5, 6]\nprint(total_banana(sample_list))",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of even numbers in a list.",
+        "Code": "def calc(s):\n    res = 0\n    for n in s:\n        if n % 2 == 0:\n            res += n\n    return res\n\nnumbers = [1, 2, 3, 4, 5, 6]\nprint(calc(numbers))",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of even numbers in a list.",
+        "Code": "def sum_of_even_numbers(number_list):\n    total_sum = 0\n    for number in number_list:\n        if number % 2 == 0:\n            total_sum += number\n    return total_sum\n\neven_numbers = [1, 2, 3, 4, 5, 6]\nprint(sum_of_even_numbers(even_numbers))",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of even numbers in a list.",
+        "Code": "def sum_even_numbers_from_list(input_number_list):\n    even_sum = 0\n    for current_number in input_number_list:\n        if current_number % 2 == 0:\n            even_sum += current_number\n    return even_sum\n\neven_integer_list = [1, 2, 3, 4, 5, 6]\nprint(sum_even_numbers_from_list(even_integer_list))",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of squares of a list of numbers.",
+        "Code": "def f(x):\n    y = 0\n    for z in x:\n        w = z ** 2\n        y += w\n    return y\nresults = f([1, 2, 3, 4])\nprint(results)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of squares of a list of numbers.",
+        "Code": "def calc(data):\n    total = 0\n    for item in data:\n        square = item ** 2\n        total += square\n    return total\nresult = calc([1, 2, 3, 4])\nprint(result)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of squares of a list of numbers.",
+        "Code": "def calculate_sum_of_squares(numbers):\n    sum_of_squares = 0\n    for number in numbers:\n        square = number ** 2\n        sum_of_squares += square\n    return sum_of_squares\nresult = calculate_sum_of_squares([1, 2, 3, 4])\nprint(result)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of squares of a list of numbers.",
+        "Code": "def compute_square_sum(input_numbers):\n    total_sum_of_squares = 0\n    for current_number in input_numbers:\n        squared_value = current_number ** 2\n        total_sum_of_squares += squared_value\n    return total_sum_of_squares\nresult = compute_square_sum([1, 2, 3, 4])\nprint(result)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+{
+    "Problem": "Calculate the sum of all even numbers in a given list.",
+    "Code": "def func_x(some_list):\n    total = 0\n    for item in some_list:\n        if item % 2 == 0:\n            total += item\n    return total\nresult = func_x([1, 2, 3, 4, 5, 6])\nprint(result)",
+    "Identifier Naming Quality": "misleading"
+}
+```
+{
+    "Problem": "Calculate the sum of all even numbers in a given list.",
+    "Code": "def do_it(data):\n    result = 0\n    for num in data:\n        if num % 2 == 0:\n            result += num\n    return result\noutput = do_it([1, 2, 3, 4, 5, 6])\nprint(output)",
+    "Identifier Naming Quality": "bad"
+}
+```
+{
+    "Problem": "Calculate the sum of all even numbers in a given list.",
+    "Code": "def calculate_even_sum(numbers):\n    even_sum = 0\n    for number in numbers:\n        if number % 2 == 0:\n            even_sum += number\n    return even_sum\nresult = calculate_even_sum([1, 2, 3, 4, 5, 6])\nprint(result)",
+    "Identifier Naming Quality": "good"
+}
+```
+{
+    "Problem": "Calculate the sum of all even numbers in a given list.",
+    "Code": "def sum_of_even_numbers(input_list):\n    sum_of_evens = 0\n    for current_number in input_list:\n        if current_number % 2 == 0:\n            sum_of_evens += current_number\n    return sum_of_evens\nfinal_result = sum_of_even_numbers([1, 2, 3, 4, 5, 6])\nprint(final_result)",
+    "Identifier Naming Quality": "perfect"
+}
+```
+[
+    {
+        "Problem": "Calculate the sum of integers from 1 to n.",
+        "Code": "def foo(n):\n    x = 0\n    for i in range(1, n + 1):\n        x += i\n    return x\nresult = foo(10)\nprint(result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of integers from 1 to n.",
+        "Code": "def calc(n):\n    total = 0\n    for count in range(1, n + 1):\n        total += count\n    return total\nsum_result = calc(10)\nprint(sum_result)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of integers from 1 to n.",
+        "Code": "def calculate_sum(n):\n    total_sum = 0\n    for number in range(1, n + 1):\n        total_sum += number\n    return total_sum\nresult_sum = calculate_sum(10)\nprint(result_sum)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of integers from 1 to n.",
+        "Code": "def compute_sum_of_integers(n):\n    accumulator = 0\n    for integer in range(1, n + 1):\n        accumulator += integer\n    return accumulator\nfinal_sum = compute_sum_of_integers(10)\nprint(final_sum)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def calculate_total(lst):\n    total = 0\n    for item in lst:\n        if item % 2 == 0:\n            total += item\n    return total\n\nnumbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresult = calculate_total(numbers_list)\nprint('Total:', result)",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def sum_elements(x):\n    total_sum = 0\n    for i in x:\n        if i % 2 == 0:\n            total_sum += i\n    return total_sum\n\narray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresult = sum_elements(array)\nprint('Total:', result)",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def sum_even_numbers(numbers):\n    even_sum = 0\n    for number in numbers:\n        if number % 2 == 0:\n            even_sum += number\n    return even_sum\n\nmy_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresult = sum_even_numbers(my_numbers)\nprint('Total:', result)",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of all even numbers in a list.",
+        "Code": "def compute_sum_of_even_numbers(input_numbers):\n    total_even_sum = 0\n    for current_number in input_numbers:\n        if current_number % 2 == 0:\n            total_even_sum += current_number\n    return total_even_sum\n\nlist_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfinal_result = compute_sum_of_even_numbers(list_of_numbers)\nprint('Total Sum of Even Numbers:', final_result)",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+{
+    "Problem": "Calculate the total price of items in a shopping cart.",
+    "Code": "def calculate_total():\n    x = 0\n    items = [2.5, 3.0, 5.99, 10.00]\n    for z in items:\n        x += z\n    return x\n    \nresult = calculate_total()\nprint(result)",
+    "Identifier Naming Quality": "misleading"
+}
+```
+{
+    "Problem": "Calculate the total price of items in a shopping cart.",
+    "Code": "def total_calc():\n    sum = 0\n    lst = [12.0, 15.5, 9.75] # prices\n    for item in lst:\n        sum += item\n    return sum\n    \noutput = total_calc()\nprint(output)",
+    "Identifier Naming Quality": "bad"
+}
+```
+{
+    "Problem": "Calculate the total price of items in a shopping cart.",
+    "Code": "def calculate_total_price():\n    total_price = 0.0\n    item_prices = [2.50, 3.75, 9.99, 15.00]\n    for price in item_prices:\n        total_price += price\n    return total_price\n    \nresult = calculate_total_price()\nprint(result)",
+    "Identifier Naming Quality": "good"
+}
+```
+{
+    "Problem": "Calculate the total price of items in a shopping cart.",
+    "Code": "def compute_shopping_cart_total():\n    accumulated_total = 0.0\n    shopping_cart_item_prices = [2.50, 3.75, 9.99, 15.00]\n    for item_price in shopping_cart_item_prices:\n        accumulated_total += item_price\n    return accumulated_total \n    \nfinal_total = compute_shopping_cart_total()\nprint(final_total)",
+    "Identifier Naming Quality": "perfect"
+}
+```
+[
+    {
+        "Problem": "Calculate the average of a list of numbers.",
+        "Code": "def randomFunction(a):\n    total = 0\n    count = 0\n    for item in a:\n        total += item\n        count += 1\n    return total / count if count != 0 else 0",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the average of a list of numbers.",
+        "Code": "def calcN(a):\n    temp = 0\n    i = 0\n    for e in a:\n        temp += e\n        i += 1\n    return temp / i if i != 0 else 0",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the average of a list of numbers.",
+        "Code": "def calculate_average(numbers):\n    total_sum = 0\n    total_count = 0\n    for number in numbers:\n        total_sum += number\n        total_count += 1\n    return total_sum / total_count if total_count != 0 else 0",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the average of a list of numbers.",
+        "Code": "def compute_arithmetic_mean(number_list):\n    sum_of_numbers = 0\n    total_elements = 0\n    for single_number in number_list:\n        sum_of_numbers += single_number\n        total_elements += 1\n    return sum_of_numbers / total_elements if total_elements != 0 else 0",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculating the factorial of a number",
+        "Code": "def f(n):\n    if n <= 1:\n        return 1\n    else:\n        return n * f(n - 1)\n\nx = 5\nresult = f(x)\nprint('Result:', result)\n",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculating the factorial of a number",
+        "Code": "def calc(a):\n    if a <= 1:\n        return 1\n    else:\n        return a * calc(a - 1)\n\ny = 5\noutput = calc(y)\nprint('Output:', output)\n",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculating the factorial of a number",
+        "Code": "def calculate_factorial(num):\n    if num <= 1:\n        return 1\n    else:\n        return num * calculate_factorial(num - 1)\n\ninput_number = 5\nfactorial_result = calculate_factorial(input_number)\nprint('Factorial:', factorial_result)\n",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculating the factorial of a number",
+        "Code": "def compute_factorial_of_integer(integer_value):\n    if integer_value <= 1:\n        return 1\n    else:\n        return integer_value * compute_factorial_of_integer(integer_value - 1)\n\nuser_input_number = 5\ncomputed_factorial_value = compute_factorial_of_integer(user_input_number)\nprint('Computed Factorial:', computed_factorial_value)\n",
+        "Identifier Naming Quality": "perfect"
+    }
+]
+```
+[
+    {
+        "Problem": "Calculate the sum of the first n natural numbers.",
+        "Code": "def calculate_total(x):\n    total = 0\n    for y in range(1, x + 1):\n        total += y\n    return total\nresult = calculate_total(10)\nprint('The total is:', result)\n",
+        "Identifier Naming Quality": "misleading"
+    },
+    {
+        "Problem": "Calculate the sum of the first n natural numbers.",
+        "Code": "def func(a):\n    res = 0\n    for b in range(1, a + 1):\n        res += b\n    return res\noutput = func(10)\nprint('The output is:', output)\n",
+        "Identifier Naming Quality": "bad"
+    },
+    {
+        "Problem": "Calculate the sum of the first n natural numbers.",
+        "Code": "def calculate_sum(n):\n    sum_result = 0\n    for number in range(1, n + 1):\n        sum_result += number\n    return sum_result\nresult = calculate_sum(10)\nprint('The sum is:', result)\n",
+        "Identifier Naming Quality": "good"
+    },
+    {
+        "Problem": "Calculate the sum of the first n natural numbers.",
+        "Code": "def compute_sum_of_natural_numbers(count):\n    total_sum = 0\n    for current_number in range(1, count + 1):\n        total_sum += current_number\n    return total_sum\nfinal_result = compute_sum_of_natural_numbers(10)\nprint('The computed sum is:', final_result)\n",
+        "Identifier Naming Quality": "perfect"
+    }
+]

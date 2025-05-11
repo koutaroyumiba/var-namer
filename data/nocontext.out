@@ -1,0 +1,1324 @@
+{
+    "feedback": [
+        "The function name 'a' is non-descriptive; consider renaming it to something that reflects its purpose, such as 'calculate_area'.",
+        "The parameter names 'b' and 'c' are vague; they should be more descriptive, e.g., 'length' and 'width'.",
+        "The variable name 'd' does not convey information about its content; consider naming it 'area' to match what it represents."
+    ],
+    "mapping": {
+        "a": "calculate_area",
+        "b": "length",
+        "c": "width",
+        "d": "area"
+    }
+}
+```
+{
+    "feedback": [
+        "Variable 'z' is vague; consider using a name that reflects its purpose, such as 'product' or 'result'.",
+        "'l' and 'w' are not descriptive; consider using 'length' and 'width' for clarity.",
+        "'func' is generic; a more descriptive name like 'calculate_area' would improve readability.",
+        "Maintain consistency in variable naming; using full words for 'length' and 'width' while keeping 'area' is a good practice."
+    ],
+    "mapping": {
+        "z": "result",
+        "l": "length",
+        "w": "width",
+        "func": "calculate_area"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable names 'length' and 'width' are clear and descriptive, effectively conveying their purpose.",
+        "Consider renaming 'length_value' and 'width_value' to 'length' and 'width' to avoid redundancy, as their context is clear.",
+        "The variable 'rectangle_area' is descriptive, but could be simplified to 'area' since it is already understood to represent the area of a rectangle from the context."
+    ],
+    "mapping": {
+        "length_value": "length",
+        "width_value": "width",
+        "rectangle_area": "area"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable names are generally descriptive, which aids in understanding the code.",
+        "Consider shortening 'rectangle_length' and 'rectangle_width' to 'length' and 'width' since their scope is clear.",
+        "The name 'calculated_area' is a bit verbose; consider naming it simply 'area' to align with the context.",
+        "Ensure consistent naming conventions; if using 'rectangle_' prefix, apply it uniformly across related variables."
+    ],
+    "mapping": {
+        "rectangle_length": "length",
+        "rectangle_width": "width",
+        "calculated_area": "area"
+    }
+}
+```
+{
+    "feedback": [
+        "The parameter names 'a' and 'b' are not descriptive. Consider using 'length' and 'width' if representing dimensions.",
+        "The variable name 'items' is vague. A more descriptive name like 'dimension_values' or 'fixed_items' would provide better context.",
+        "The variable name 'total' is clear but could be more specific, such as 'total_area' or 'final_total' to indicate what total is being calculated."
+    ],
+    "mapping": {
+        "a": "length",
+        "b": "width",
+        "items": "dimension_values",
+        "total": "total_area"
+    }
+}
+```
+{
+    "feedback": [
+        "Consider renaming 'x' and 'y' to more descriptive names that indicate their purpose, such as 'additional_value' or 'extra_amount'.",
+        "The variable 'lst' should be renamed to something more descriptive, like 'numbers_list' or 'cost_values', to clarify its contents.",
+        "The name 'val' could be improved to 'total_value' or 'sum_result' to better reflect its purpose in accumulating results."
+    ],
+    "mapping": {
+        "x": "additional_value",
+        "y": "extra_amount",
+        "lst": "cost_values",
+        "val": "total_value"
+    }
+}
+```
+{
+    "feedback": [
+        "Consider renaming 'item_price1' and 'item_price2' to 'first_item_price' and 'second_item_price' for clarity.",
+        "The variable 'prices_list' could be more descriptively named 'fixed_prices' to indicate its purpose.",
+        "The name 'total_price' is clear and effective; it appropriately conveys its purpose as an accumulation of prices.",
+        "Ensure consistent naming conventions; consider using snake_case for all variable names for uniformity."
+    ],
+    "mapping": {
+        "item_price1": "first_item_price",
+        "item_price2": "second_item_price",
+        "prices_list": "fixed_prices"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'item_cost1' and 'item_cost2' could be more descriptive, suggesting they represent the specific items being purchased.",
+        "Consider renaming 'item_prices' to 'price_list' for consistency with the naming convention.",
+        "'cumulative_cost' is clear, but renaming it to 'total_cost' could better reflect its purpose as the final value.",
+        "The variable 'current_price' is acceptable; however, a name like 'price' could simplify it since it only represents the current iteration's price."
+    ],
+    "mapping": {
+        "item_cost1": "first_item_cost",
+        "item_cost2": "second_item_cost",
+        "item_prices": "price_list",
+        "cumulative_cost": "total_cost",
+        "current_price": "price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'y' could be more descriptive; consider naming it 'numbers' or 'input_values' to clarify its purpose.",
+        "The variable 'total' is reasonably clear, but 'sum_of_squares' would provide more context about what it is calculating.",
+        "The loop variable 't' is vague; consider renaming it to 'number' or 'current_number' to improve readability."
+    ],
+    "mapping": {
+        "y": "numbers",
+        "total": "sum_of_squares",
+        "t": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'calculate_a' could be more descriptive; consider renaming it to 'calculate_sum_of_squares_of_evens' to clarify its purpose.",
+        "'b' could be renamed to 'numbers' to better indicate that it represents a list of integers.",
+        "'c' should be more descriptive; consider naming it 'sum_of_squares' to reflect that it accumulates the sum of squares of even numbers.",
+        "'d' is too generic; renaming it to 'number' would improve readability and indicate that it represents each individual number in the list."
+    ],
+    "mapping": {
+        "calculate_a": "calculate_sum_of_squares_of_evens",
+        "b": "numbers",
+        "c": "sum_of_squares",
+        "d": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'total_sum' is clear and descriptive; it accurately reflects its purpose.",
+        "The variable 'number' could be improved by naming it 'current_number' to indicate that it represents the current element in the list.",
+        "Consider renaming 'numbers' to 'input_numbers' to specify that this is the list of numbers passed to the function."
+    ],
+    "mapping": {
+        "numbers": "input_numbers",
+        "number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'sum_of_squares_of_even_numbers' is clear and descriptive, effectively conveying its purpose.",
+        "The variable 'square_sum' is appropriate, but could be renamed to 'sum_of_even_squares' for improved clarity.",
+        "The variable 'current_number' is descriptive, but could be simplified to 'even_number' to emphasize the focus on even numbers in the context."
+    ],
+    "mapping": {
+        "square_sum": "sum_of_even_squares",
+        "current_number": "even_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'n' could be more descriptive; consider using 'upperLimit' or 'maxNumber'.",
+        "The variable 'total' is clear, but could also be more specific; consider 'evenSum' to indicate its purpose.",
+        "The loop variable 'qwerty' does not effectively communicate its purpose; a name like 'currentNumber' or 'number' would be more intuitive."
+    ],
+    "mapping": {
+        "n": "upperLimit",
+        "total": "evenSum",
+        "qwerty": "currentNumber"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 's' should have a more descriptive name, such as 'sum_of_evens', to clarify its purpose.",
+        "The parameter 'n' could be renamed to 'upper_limit' or 'max_number' to indicate its role as the upper boundary for the calculation.",
+        "Using a more descriptive name for the function, such as 'calculate_sum_of_even_numbers', would provide clearer insight into its functionality."
+    ],
+    "mapping": {
+        "s": "sum_of_evens",
+        "n": "upper_limit",
+        "calc": "calculate_sum_of_even_numbers"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'total_sum' clearly indicates that it holds a cumulative sum, which is good for readability.",
+        "Consider renaming 'limit' to 'upper_limit' for greater clarity, as it specifies the upper boundary for the range of numbers being summed.",
+        "The name 'number' could be more descriptive. Consider using 'current_number' to indicate the active number in the loop."
+    ],
+    "mapping": {
+        "limit": "upper_limit",
+        "number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'total_even_sum' is clear and descriptive, indicating that it holds the sum of even numbers.",
+        "The variable name 'current_number' is also descriptive, clearly indicating its purpose in the loop.",
+        "Consider renaming 'n' to 'max_limit' or 'upper_bound' for better clarity on what it represents.",
+        "Maintain consistency in naming conventions; use underscores for multi-word variable names."
+    ],
+    "mapping": {
+        "n": "max_limit"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'total' is clear, but consider a name like 'total_cost' for added clarity.",
+        "The variable 'item' is generic; consider using 'cart_item' to specify that it refers to items in the shopping cart.",
+        "The key 'cost' in the dictionary should be more descriptive; consider renaming it to 'item_price' for clarity."
+    ],
+    "mapping": {
+        "total": "total_cost",
+        "item": "cart_item",
+        "cost": "item_price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'data' is somewhat vague; consider using 'entries' or 'items' for clarity.",
+        "The variable 'entry' is good, as it conveys that each item in 'data' represents an individual entry.",
+        "The variable 'value' could be more descriptive; consider renaming it to 'price_value' to indicate that it specifically refers to the price from each entry.",
+        "The variable 'total_value' is clear; it effectively communicates its purpose as the cumulative total of values."
+    ],
+    "mapping": {
+        "data": "entries",
+        "value": "price_value"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'total_price' is clear and descriptive, effectively conveying its purpose.",
+        "The variable 'item' is a good choice as it represents individual entries in the items list; however, consider 'current_item' for clarity.",
+        "'item_price' is quite specific but could be improved to 'current_item_price' for consistency with 'current_item'.",
+        "Overall, using consistent prefixes like 'current_' for all item-related variables can enhance readability."
+    ],
+    "mapping": {
+        "item": "current_item",
+        "item_price": "current_item_price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'cart_item_list' is clear but could be simplified to 'cart_items' for brevity.",
+        "The variable 'total_cost' is descriptive and effective; it clearly indicates its purpose.",
+        "The name 'cart_item' is appropriate for a single item in the list, ensuring clarity.",
+        "The variable 'individual_cost' could be renamed to 'item_cost' to better reflect its relation to the 'cart_item'.",
+        "Ensure consistency in naming conventions; using underscores consistently is good, but consider sticking to either singular or plural forms for similar variables."
+    ],
+    "mapping": {
+        "cart_item_list": "cart_items",
+        "individual_cost": "item_cost"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'a' is not descriptive; consider renaming it to 'totalItems'.",
+        "The variable name 'b' is unclear; a more descriptive name like 'pricePerItem' would enhance readability.",
+        "The function parameters should be more descriptive to reflect their usage, e.g., 'computeTotalPrice(totalItems, pricePerItem)'.",
+        "'totalItems' is clear and descriptive but could be simplified to 'itemCount' for consistency with 'pricePerItem'.",
+        "'price' is overly generic; consider 'itemPrice' for better context.",
+        "The variable 'result' could be renamed to 'totalPrice' to directly convey what it holds.",
+        "Ensure consistency in naming conventions; stick to either camelCase or snake_case throughout."
+    ],
+    "mapping": {
+        "a": "totalItems",
+        "b": "pricePerItem",
+        "items": "itemCount",
+        "price": "itemPrice",
+        "result": "totalPrice"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'count' is too vague; consider renaming it to 'numberOfItems' for clarity.",
+        "The variable 'amount' is not descriptive enough; 'itemPrice' is better suited.",
+        "The function parameter names 'x' and 'y' lack context; consider using 'numItems' and 'itemPrice' to maintain consistency with the variable names in the calling code.",
+        "The variable 'total' is generic; consider renaming it to 'totalCost' to clearly indicate its purpose."
+    ],
+    "mapping": {
+        "count": "numberOfItems",
+        "amount": "itemPrice",
+        "x": "numItems",
+        "y": "itemPrice",
+        "total": "totalCost"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'items_count' is clear but could be improved for consistency. Consider using 'number_of_items' for uniformity in how you refer to the item count.",
+        "The variable 'individual_price' is descriptive but doesn't match the naming style of the other variables. Consider renaming it to 'price_per_item' to maintain consistency.",
+        "The variable 'total_cost' is clear but does not match the terminology used in the 'calculate_total_price' function. Using 'total_price' would improve clarity and consistency."
+    ],
+    "mapping": {
+        "items_count": "number_of_items",
+        "individual_price": "price_per_item",
+        "total_cost": "total_price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'item_quantity' is clear, although 'quantity' might be more concise.",
+        "Consider renaming 'cost_per_item' to 'item_price' for clarity, as it directly represents the price per item.",
+        "'total_cost' is descriptive, but 'final_total_cost' could simply be renamed to 'total_cost' for consistency with the function naming.",
+        "'number_of_items_in_cart' is somewhat long; 'item_count' could be a clearer, more concise alternative.",
+        "'unit_price_of_item' is descriptive, but similarly 'item_price' would offer consistency with 'cost_per_item'."
+    ],
+    "mapping": {
+        "item_quantity": "quantity",
+        "cost_per_item": "item_price",
+        "final_total_cost": "total_cost",
+        "number_of_items_in_cart": "item_count",
+        "unit_price_of_item": "item_price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'a' is too generic; consider using a name like 'numbers' for clarity.",
+        "The variable name 'd' does not convey any meaningful information; a name like 'sum_of_even_numbers' would be more descriptive.",
+        "The variable name 'b' is also vague; using a name like 'number' can improve readability."
+    ],
+    "mapping": {
+        "a": "numbers",
+        "d": "sum_of_even_numbers",
+        "b": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'result' could be more descriptive; consider using 'sum_of_even_numbers' for clarity.",
+        "The variable name 'lst' is too vague; consider using 'numbers' or 'number_list' to clearly convey its purpose.",
+        "The variable name 'num' is acceptable but could be improved for clarity; consider 'current_number' or 'current_value' to indicate its role in the loop."
+    ],
+    "mapping": {
+        "result": "sum_of_even_numbers",
+        "lst": "number_list",
+        "num": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'total' is somewhat vague; consider renaming it to 'even_sum' for better clarity on its purpose.",
+        "The variable 'numbers' is a good descriptor, but it could be improved by naming it 'input_numbers' to indicate that it is the input to the function.",
+        "The loop variable 'number' is clear, but using 'current_number' might enhance the descriptiveness of its role within the loop."
+    ],
+    "mapping": {
+        "total": "even_sum",
+        "numbers": "input_numbers",
+        "number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'calculate_sum_of_even_numbers' is clear and descriptive, effectively conveying the purpose of the function.",
+        "The variable 'total_even_sum' is good but could be simplified to 'even_sum' for brevity while retaining clarity.",
+        "The loop variable 'current_number' is descriptive but could be shortened to 'number' to maintain consistency with the parameter 'number_list'."
+    ],
+    "mapping": {
+        "total_even_sum": "even_sum",
+        "current_number": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "Function name 'a' is vague; consider using something like 'sum_elements' to clearly indicate its purpose.",
+        "Parameter 'b' is not descriptive; renaming it to 'numbers' would clarify that it represents a collection of numerical values.",
+        "The variable 'c' is not indicative of its role; renaming it to 'total' could enhance clarity about its use in accumulating the sum.",
+        "Variable 'd' in the for loop is too generic; using a name like 'number' would provide better context regarding its content."
+    ],
+    "mapping": {
+        "a": "sum_elements",
+        "b": "numbers",
+        "c": "total",
+        "d": "number"
+    }
+}
+```
+{
+    "feedback": {
+        "1": "The variable name 'lst' could be more descriptive; consider using 'numbersList' or 'inputList'.",
+        "2": "The variable name 'total' is clear, but could be improved to 'sumTotal' for better readability in the context of adding numbers.",
+        "3": "The name 'item' is generic; consider renaming it to 'currentNumber' or 'number' to specify its purpose."
+    },
+    "mapping": {
+        "lst": "numbersList",
+        "total": "sumTotal",
+        "item": "currentNumber"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'numbers' is clear and descriptive, effectively indicating a collection of numeric values.",
+        "The variable 'total_sum' is somewhat redundant; 'sum' could be enough to convey that it's a cumulative value.",
+        "Consider changing 'total_sum' to 'cumulative_sum' for clearer intent regarding the accumulated value during the loop.",
+        "The variable 'number' is appropriately named as it represents a single element from the 'numbers' list."
+    ],
+    "mapping": {
+        "total_sum": "cumulative_sum"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'number_list' clearly indicates that it is a list of numbers, which is good.",
+        "The name 'accumulated_sum' is descriptive and effectively communicates its purpose.",
+        "'single_number' could be renamed to 'current_number' to better imply its role as the current item being processed."
+    ],
+    "mapping": {
+        "single_number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'calculate_abc' is vague; consider renaming it to 'calculate_factorial' for clarity.",
+        "The variable name 'number' is acceptable but could be more descriptive as 'input_number'.",
+        "The variable 'result' is too generic; consider renaming it to 'factorial_result' to indicate the specific calculation it holds."
+    ],
+    "mapping": {
+        "calculate_abc": "calculate_factorial",
+        "number": "input_number",
+        "result": "factorial_result"
+    }
+}
+```
+{
+    "feedback": [
+        "Consider renaming 'n' to 'number' for clarity regarding its purpose as the input value.",
+        "Rename 'fact' to 'factorial' to better describe the variable's role in storing the factorial value."
+    ],
+    "mapping": {
+        "n": "number",
+        "fact": "factorial"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'num' is a bit ambiguous; consider using 'input_number' to clarify its role as the input for factorial calculation.",
+        "The variable 'factorial_result' is descriptive; however, a shorter name like 'result' could be sufficient while maintaining clarity.",
+        "Ensure consistency in naming styles; if you decide to use underscores, keep it consistent with all variable names."
+    ],
+    "mapping": {
+        "num": "input_number",
+        "factorial_result": "result"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'input_number' is clear, but could be improved to 'number' for brevity.",
+        "The name 'factorial_of_input' accurately describes its purpose, but 'factorial' alone would be sufficient and more concise.",
+        "The variable 'current_integer' effectively conveys its role in the loop, but it could be simplified to 'num' or 'integer'."
+    ],
+    "mapping": {
+        "input_number": "number",
+        "factorial_of_input": "factorial",
+        "current_integer": "num"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'x' should be renamed to 'upper_limit' to better reflect its purpose in the function.",
+        "The variable 'y' could be more descriptive by renaming it to 'sum_total' to indicate its role in accumulating the total sum.",
+        "The variable name 'i' is acceptable due to its common usage in loops, but more clarity could be added by renaming it to 'current_number' for better readability."
+    ],
+    "mapping": {
+        "x": "upper_limit",
+        "y": "sum_total",
+        "i": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'n' should be renamed to 'max_number' for clarity, indicating it's the upper limit of the range.",
+        "The variable 'total' is adequately named, but consider using 'sum' for consistency with conventional naming related to summation."
+    ],
+    "mapping": {
+        "n": "max_number",
+        "total": "sum"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'sum_result' is clear but could be simplified to 'total_sum' for better readability.",
+        "The parameter 'n' is acceptable, but consider renaming it to 'number_of_integers' to increase clarity.",
+        "The loop variable 'number' is appropriately named and clearly indicates its purpose."
+    ],
+    "mapping": {
+        "sum_result": "total_sum",
+        "n": "number_of_integers"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'cumulative_sum' is clear and effectively conveys its purpose in the function.",
+        "The variable 'current_integer' is descriptive but could be simplified to 'number' to enhance readability while maintaining clarity.",
+        "The use of 'upper_limit' is appropriate and clearly indicates its role in defining the range of the integers to sum.",
+        "Overall, variable names are mostly clear, but simplifying 'current_integer' would contribute to improved readability."
+    ],
+    "mapping": {
+        "current_integer": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'a' could be more descriptive; consider renaming it to 'maxValue' to indicate its purpose.",
+        "The variable 'b' does not clearly convey its function; a rename to 'sumTotal' would improve clarity.",
+        "The variable 'c' is not descriptive; consider renaming it to 'currentNumber' to make its role in the summation clearer."
+    ],
+    "mapping": {
+        "a": "maxValue",
+        "b": "sumTotal",
+        "c": "currentNumber"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'x' could be renamed to 'maxValue' or 'upperLimit' for better clarity regarding its purpose.",
+        "'total' is a decent name, but it might be improved by using 'sumTotal' or 'cumulativeSum' to convey that it accumulates a total.",
+        "The variable 'i' is commonly used for loop indices, but consider using 'counter' or 'currentNumber' to enhance clarity in the context of summing numbers."
+    ],
+    "mapping": {
+        "x": "maxValue",
+        "total": "cumulativeSum",
+        "i": "currentNumber"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'total_sum' effectively conveys its purpose; however, consider shorter alternatives like 'sum' for simplicity.",
+        "The variable 'number' is appropriately descriptive in the context of iterating through a series of natural numbers; no changes needed.",
+        "The parameter 'n' could be renamed to something more descriptive, such as 'upper_limit' to specify its role more clearly."
+    ],
+    "mapping": {
+        "total_sum": "sum",
+        "n": "upper_limit"
+    }
+}
+```
+{
+  "feedback": [
+    "The variable name 'natural_number_count' is descriptive but can be simplified to 'count' for clarity.",
+    "The variable name 'cumulative_sum' is good as it accurately represents its purpose in the code.",
+    "The variable name 'natural_number' is somewhat descriptive but could be improved to 'current_number' to clarify that it represents the current number in the iteration."
+  ],
+  "mapping": {
+    "natural_number_count": "count",
+    "natural_number": "current_number"
+  }
+}
+```
+{
+    "feedback": [
+        "The function name 'f' is not descriptive; consider renaming it to 'factorial' for clarity.",
+        "The parameter 'x' is generic; renaming it to 'number' could enhance understanding of its purpose.",
+        "The variable 'result' is appropriately named but could be more descriptive by renaming it to 'factorial_result' to specify what it holds."
+    ],
+    "mapping": {
+        "f": "factorial",
+        "x": "number",
+        "result": "factorial_result"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'a' is too generic; consider using 'number' or 'n' to better describe its purpose as the input for factorial calculation.",
+        "'output' is clear, but a more descriptive name like 'factorial_result' would provide better context regarding its content."
+    ],
+    "mapping": {
+        "a": "number",
+        "output": "factorial_result"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'num' is somewhat generic; consider renaming it to 'number' for better clarity.",
+        "The name 'factorial_result' is clear, but could be more descriptive, such as 'calculated_factorial' to indicate the action being taken."
+    ],
+    "mapping": {
+        "num": "number",
+        "factorial_result": "calculated_factorial"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'input_number' is clear, but could be more specific, like 'number_to_factorial'.",
+        "'final_factorial_value' is descriptive but could be simplified to 'factorial_result' to maintain consistency in naming conventions.",
+        "Consider using consistent naming patterns such as using underscores for multi-word variables.",
+        "It would also improve clarity to have a variable name that indicates the context, such as 'computed_factorial' instead of just 'final_factorial_value'."
+    ],
+    "mapping": {
+        "input_number": "number_to_factorial",
+        "final_factorial_value": "factorial_result"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'x' is not descriptive; consider using 'factorial' or 'calculate_factorial' for clarity.",
+        "'a' is too generic; rename it to 'number' or 'n' to indicate that it represents a numeric input.",
+        "'b' does not provide meaningful context; rename it to 'factorial_value' or 'result' to clarify its purpose."
+    ],
+    "mapping": {
+        "x": "calculate_factorial",
+        "a": "number",
+        "b": "factorial_value"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'f' is too generic; consider using a descriptive name that indicates its purpose, such as 'factorial'.",
+        "The parameter name 'n' is often used, but it could be more descriptive, for instance, 'number' to indicate that it is the number to calculate the factorial for.",
+        "The variable 'r' is not descriptive; it would be clearer to rename it to 'result' or 'factorial_result' to reflect its meaning in the context of the function."
+    ],
+    "mapping": {
+        "f": "factorial",
+        "n": "number",
+        "r": "result"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'number' is somewhat vague; consider using 'input_number' to make its purpose clearer.",
+        "'result' could be more descriptive; consider naming it 'factorial_product' or 'factorial_value' to indicate it holds the factorial calculation.",
+        "The variable name 'input_number' is clear and descriptive; it effectively communicates its role in the function.",
+        "Ensure consistency in naming; if you are using 'input_number' for the parameter, it would be beneficial to use similar descriptive names for other variables."
+    ],
+    "mapping": {
+        "number": "input_number_parameter",
+        "result": "factorial_product"
+    }
+}
+```
+{
+    "feedback": [
+        "Variable name 'input_value' could be more descriptive; consider 'number' or 'n'.",
+        "The name 'factorial_result' is clear but could be shortened to 'factorial' for conciseness.",
+        "Variable name 'user_input' is informative, but could be clearer if changed to 'input_number' or 'input_value'.",
+        "Consider using a consistent naming scheme for similar variables; for example, both input variables could follow the same pattern."
+    ],
+    "mapping": {
+        "input_value": "number",
+        "factorial_result": "factorial",
+        "user_input": "input_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'f' is too generic; consider a more descriptive name like 'factorial' to indicate its purpose.",
+        "The parameter 'x' could be renamed to 'number' to clarify that it represents the number being processed."
+    ],
+    "mapping": {
+        "f": "factorial",
+        "x": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'num' is generic; consider renaming it to 'number' for clarity and better readability.",
+        "The function name 'func' is not descriptive; using a name that reflects its purpose, like 'factorial', will enhance understanding of what the function does.",
+        "The output variable is appropriately named; however, specifying it as 'factorial_result' could provide additional context."
+    ],
+    "mapping": {
+        "func": "factorial",
+        "num": "number",
+        "output": "factorial_result"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'n' could be more descriptive; consider using 'number' or 'input_number' to clarify its purpose.",
+        "The variable name 'factorial_result' is clear and descriptive, effectively indicating its purpose.",
+        "Consistency in naming could be improved; using 'number' in place of 'n' would align better with 'factorial_result'."
+    ],
+    "mapping": {
+        "n": "input_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'number' is generic; consider renaming it to 'input_number' to clarify its purpose.",
+        "The function name 'compute_factorial_of_number' is clear, but could be more concise by renaming it to 'factorial' or 'calculate_factorial'.",
+        "The variable 'factorial_of_five' could be renamed to 'factorial_of_5' for consistency with the parameter naming conventions, using numerical values can enhance clarity."
+    ],
+    "mapping": {
+        "number": "input_number",
+        "compute_factorial_of_number": "calculate_factorial",
+        "factorial_of_five": "factorial_of_5"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'a' is ambiguous and could be renamed to reflect its purpose more clearly.",
+        "'x' could be more descriptive; perhaps 'upper_limit' would better convey its role in the function.",
+        "Consider using 'factorial_result' instead of 'a' to immediately clarify that this variable holds the factorial of a number."
+    ],
+    "mapping": {
+        "x": "upper_limit",
+        "a": "factorial_result"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'r' is not descriptive; consider renaming it to 'result' or 'factorial' for clarity.",
+        "The function parameter 'n' is acceptable, but adding a more descriptive name like 'number' could improve understanding.",
+        "Using 'i' in the loop is standard practice; however, ensure other variables outside of loops are descriptive."
+    ],
+    "mapping": {
+        "r": "result",
+        "n": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'number' is clear, but could be more descriptive, such as 'input_number' or 'n'.",
+        "The variable 'factorial_result' effectively describes its purpose, but could be shortened to 'result' for brevity.",
+        "'factorial_of_five' correctly conveys its function but could use a prefix like 'calculated_' for consistency with the function name."
+    ],
+    "mapping": {
+        "number": "input_number",
+        "factorial_result": "result",
+        "factorial_of_five": "calculated_factorial_of_five"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'input_number' is clear, but could be more descriptive as 'number_to_compute' to indicate the specific role of the variable.",
+        "The name 'accumulated_product' accurately describes its purpose, but could be simplified to 'factorial_result' for clarity.",
+        "The variable 'current_integer' is descriptive, but could be better named 'current_value' for consistency in naming convention with other variables."
+    ],
+    "mapping": {
+        "input_number": "number_to_compute",
+        "accumulated_product": "factorial_result",
+        "current_integer": "current_value"
+    }
+}
+```
+{
+    "feedback": [
+        "Consider naming parameters 'itemPrice' and 'quantity' in the 'calcPrice' function to reflect their purpose better, such as 'pricePerItem' and 'itemCount'.",
+        "The variable 'c' could be renamed to 'subtotal' for clarity, as it represents the total cost before tax or additional fees.",
+        "The variable 'd' should be renamed to 'taxAmount' or 'discountAmount' for better understanding, as it adds clarity regarding its role in the calculation.",
+        "Renaming 'e' to 'totalPriceWithTax' would improve clarity, indicating that it represents the final price after tax or fees."
+    ],
+    "mapping": {
+        "a": "pricePerItem",
+        "b": "itemCount",
+        "c": "subtotal",
+        "d": "taxAmount",
+        "e": "totalPriceWithTax"
+    }
+}
+```
+{
+    "feedback": [
+        "Consider using more descriptive names than 'x' and 'y' to clarify their roles as price and quantity in the compute function.",
+        "'z' could be renamed to 'subtotal' to better convey that it's the total before taxes or additional fees.",
+        "'w' should be changed to 'tax' or 'additional_fee' to specify its purpose in the computation.",
+        "The variable 'total' is appropriately named as it reflects the final output of the function.",
+        "In the main function, 'qty' could be made more descriptive by renaming it to 'quantity' for clarity."
+    ],
+    "mapping": {
+        "x": "price",
+        "y": "quantity",
+        "z": "subtotal",
+        "w": "tax",
+        "qty": "quantity"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'item_price' is clear and descriptive, effectively indicating its purpose.",
+        "The variable name 'quantity' is also appropriate, conveying clear meaning.",
+        "'subtotal' is a good choice, as it accurately represents a part of the price calculation.",
+        "'tax_amount' is descriptive; however, including 'tax' might imply a specific rate instead of a general concept.",
+        "'total_price' is clear, but could be more succinctly represented as 'total' since the context is already known within this function.",
+        "'total' in the main function is acceptable; consider renaming it to 'total_price' for consistency with the calculate_total_price function."
+    ],
+    "mapping": {
+        "tax_amount": "calculated_tax",
+        "total_price": "total",
+        "total": "total_price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'unit_price' is clear and descriptive, effectively conveying its purpose.",
+        "The variable name 'item_quantity' describes its role well, but consider using 'quantity' for shorter clarity.",
+        "The variable 'subtotal_amount' is descriptive, but could be simplified to 'subtotal' for brevity.",
+        "The variable name 'tax_value' is understandable, but it might be clearer as 'tax_amount' to align with monetary terms.",
+        "The 'final_total_price' could be shortened to 'total_price_with_tax' for better clarity and to avoid redundancy with 'total_price' in the main function."
+    ],
+    "mapping": {
+        "item_quantity": "quantity",
+        "subtotal_amount": "subtotal",
+        "tax_value": "tax_amount",
+        "final_total_price": "total_price_with_tax"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'total_banana' is misleading; consider renaming to 'sum_of_even_numbers' for clarity.",
+        "'stuff' is too vague; a more descriptive name like 'number_list' would improve understanding of the expected data.",
+        "'total' is appropriate but could be enhanced by renaming to 'even_sum' to clearly indicate what is being summed.",
+        "Ensure consistency in naming; if variable names describe their content, apply that standard uniformly throughout."
+    ],
+    "mapping": {
+        "total_banana": "sum_of_even_numbers",
+        "stuff": "number_list",
+        "total": "even_sum"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'res' could be renamed to 'sum_of_even_numbers' for better clarity.",
+        "'s' as a parameter name does not clearly convey its purpose; consider using 'number_list' or 'input_numbers'.",
+        "The loop variable 'n' is adequately concise for iteration, but 'number' or 'current_number' could enhance its descriptiveness."
+    ],
+    "mapping": {
+        "s": "number_list",
+        "res": "sum_of_even_numbers",
+        "n": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'sum_of_even_numbers' is clear and descriptive, indicating its purpose effectively.",
+        "The variable 'total_sum' is reasonably descriptive, but could be improved for clarity by using 'even_numbers_sum' to specify that it sums only even numbers.",
+        "The parameter name 'number_list' communicates its purpose, but could be slightly clearer with 'numbers' or 'list_of_numbers' to enhance readability.",
+        "The variable 'number' in the loop is acceptable, but 'current_number' would provide additional context for clarity."
+    ],
+    "mapping": {
+        "total_sum": "even_numbers_sum",
+        "number_list": "list_of_numbers",
+        "number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'even_sum' effectively communicates its purpose, but consider renaming it to 'total_even_sum' for clarity on its cumulative nature.",
+        "'current_number' is descriptive, yet could be more concise; consider 'number' to keep it simple while retaining clarity.",
+        "'input_number_list' is clear but could be shortened to 'numbers' since the function context implies it is a list.",
+        "'even_integer_list' is somewhat redundant; simplifying it to 'even_numbers' would enhance readability while indicating its content."
+    ],
+    "mapping": {
+        "even_sum": "total_even_sum",
+        "current_number": "number",
+        "input_number_list": "numbers",
+        "even_integer_list": "even_numbers"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'x' could be renamed to 'numbers' for better clarity and context.",
+        "'y' could be more descriptively named 'sum_of_squares' to indicate its purpose in storing the total.",
+        "'z' could be renamed to 'number' to reflect that it represents each individual number in the input list.",
+        "'w' should be renamed to 'squared_value' to make it clear that this variable stores the square of the current number."
+    ],
+    "mapping": {
+        "x": "numbers",
+        "y": "sum_of_squares",
+        "z": "number",
+        "w": "squared_value"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'data' is clear but could be more descriptive, like 'numbers' or 'input_values', to specify what kind of data is expected.",
+        "The variable 'total' adequately describes its purpose but could be renamed to 'sum_of_squares' to clarify that it specifically represents the sum of squared values.",
+        "The variable 'item' is generic; renaming it to 'number' would improve clarity by indicating that it represents a numeric value.",
+        "The variable 'square' is adequately named but could be changed to 'squared_value' for added descriptiveness, indicating it is the square of the item."
+    ],
+    "mapping": {
+        "data": "numbers",
+        "total": "sum_of_squares",
+        "item": "number",
+        "square": "squared_value"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'numbers' is clear and descriptive, indicating it holds a list of numeric values.",
+        "The variable 'sum_of_squares' effectively conveys the purpose of accumulating the squares of the input numbers.",
+        "The variable 'number' is appropriately named as it represents each individual item in the 'numbers' list.",
+        "However, the variable 'square' could be renamed to 'squared_value' or 'current_square' to improve clarity about its content.",
+        "It would be beneficial to maintain consistency in naming patterns, such as using either singular or plural consistently across related variables."
+    ],
+    "mapping": {
+        "square": "squared_value"
+    }
+}
+```
+{
+    "feedback": [
+        "The function name 'compute_square_sum' is clear and descriptive, aligning well with its purpose.",
+        "The variable name 'total_sum_of_squares' is quite descriptive; however, it could be shortened to 'sum_of_squares' to enhance readability without losing meaning.",
+        "The variable name 'current_number' is descriptive, but could be simplified to 'number' for clarity and consistency since it is already within context.",
+        "The variable name 'squared_value' is appropriately descriptive, but 'square' or 'number_squared' could provide more context to indicate it specifically represents a squared value."
+    ],
+    "mapping": {
+        "total_sum_of_squares": "sum_of_squares",
+        "current_number": "number",
+        "squared_value": "number_squared"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'some_list' is generic; consider renaming it to 'numbers' or 'input_list' for clarity.",
+        "The variable 'total' is adequately descriptive, indicating that it accumulates a sum; no changes needed.",
+        "The variable 'item' is acceptable for a single list element, but for enhanced readability, consider naming it 'current_number' or 'current_item' to reflect its content."
+    ],
+    "mapping": {
+        "some_list": "numbers",
+        "item": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'data' is too generic; consider using 'number_list' or 'input_numbers' for clarity.",
+        "The variable name 'result' is acceptable but could be more descriptive; consider 'sum_of_evens' to indicate its purpose clearly.",
+        "The variable name 'num' is standard in iterations but could be more expressive. Using 'current_number' may enhance readability."
+    ],
+    "mapping": {
+        "data": "number_list",
+        "result": "sum_of_evens",
+        "num": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'numbers' is clear and descriptive, indicating that it holds a collection of number values.",
+        "The variable name 'even_sum' effectively communicates the purpose of storing the sum of even numbers.",
+        "Consider renaming 'number' to 'current_number' for better clarity, as it specifies that it refers to the current element being evaluated in the loop."
+    ],
+    "mapping": {
+        "number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'input_list' is clear and descriptive, effectively conveying that it holds a list of input values.",
+        "'sum_of_evens' is a good choice as it clearly indicates the purpose of the variable, which is to accumulate even numbers.",
+        "The name 'current_number' is descriptive, but could be improved by using 'number' for brevity since it is clear from context.",
+        "Consider renaming 'final_result' to 'total_sum_of_evens' or 'even_numbers_sum' for better clarity on what the final result represents."
+    ],
+    "mapping": {
+        "current_number": "number",
+        "final_result": "total_sum_of_evens"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'x' is too vague; consider renaming it to 'sum' or 'total' for clarity.",
+        "'n' is acceptable in mathematical contexts, but a more descriptive name like 'limit' would improve understanding of its purpose.",
+        "The function name 'foo' doesn't reflect its functionality; consider renaming it to 'calculate_sum' or 'sum_up_to' to enhance descriptiveness."
+    ],
+    "mapping": {
+        "x": "total",
+        "n": "limit",
+        "foo": "calculate_sum"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'n' could be more descriptive; consider renaming it to 'max_number' or 'upper_limit' to clarify its purpose.",
+        "The variable 'total' is acceptable, but 'sum_total' could provide clearer context as it indicates that it's summing values.",
+        "The variable 'count' is adequate, but using 'current_number' could improve readability by indicating its role in the accumulation process.",
+        "'sum_result' is a clear name, but it could also be improved to 'final_sum' to avoid ambiguity with other potential sums."
+    ],
+    "mapping": {
+        "n": "max_number",
+        "total": "sum_total",
+        "count": "current_number",
+        "sum_result": "final_sum"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'total_sum' is clear and descriptive, effectively communicating its purpose.",
+        "Consider renaming 'n' to something more descriptive like 'upper_limit' to clarify its role as the endpoint for the summation.",
+        "The loop variable 'number' is appropriate, but renaming it to 'current_number' could improve clarity about its function in the summation."
+    ],
+    "mapping": {
+        "n": "upper_limit",
+        "number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'accumulator' clearly indicates its purpose, but 'sum' would be a more straightforward choice since it directly relates to the task of summing integers.",
+        "The parameter 'n' is concise but could be more descriptive; consider using 'upper_limit' to clarify its role.",
+        "The variable 'integer' within the loop could be renamed to 'current_integer' for better clarity, showing that it represents the current integer in the summation."
+    ],
+    "mapping": {
+        "accumulator": "sum",
+        "n": "upper_limit",
+        "integer": "current_integer"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'total' is clear but could be more descriptive like 'even_total' to specify it calculates the total of even numbers.",
+        "The variable 'lst' is generic. Consider renaming it to 'numbers' or 'number_list' to reflect its content better.",
+        "'item' is a reasonable name for elements in the list, but it could be improved to 'number' for more clarity in context."
+    ],
+    "mapping": {
+        "total": "even_total",
+        "lst": "numbers_list",
+        "item": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'x' is too vague; consider using 'numbers' or 'elements' for clarity.",
+        "The name 'total_sum' is descriptive, but it could be simplified to 'sum' since it reflects the operation without redundancy.",
+        "The variable name 'array' is acceptable but consider using 'number_list' for better context regarding its contents.",
+        "The variable name 'result' is generic; consider using 'even_sum' to reflect what the result represents."
+    ],
+    "mapping": {
+        "x": "numbers",
+        "total_sum": "sum",
+        "array": "number_list",
+        "result": "even_sum"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'even_sum' is clear and effectively conveys its purpose as the sum of even numbers.",
+        "The name 'numbers' is general; consider renaming it to 'input_numbers' to specify its role as input.",
+        "The variable 'result' could be renamed to 'total_even_sum' for consistency with the function's action and clarity."
+    ],
+    "mapping": {
+        "numbers": "input_numbers",
+        "result": "total_even_sum"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'input_numbers' is clear and descriptive, which helps understand its purpose.",
+        "Consider renaming 'total_even_sum' to 'sum_of_even_numbers' for better clarity and consistency with the function's purpose.",
+        "'current_number' is appropriately named but could be shortened to 'number' to enhance readability without losing meaning.",
+        "'list_of_numbers' is descriptive but could be renamed to 'numbers' for conciseness since its context is clear.",
+        "'final_result' could be improved to 'sum_of_even_numbers' to better reflect its value."
+    ],
+    "mapping": {
+        "total_even_sum": "sum_of_even_numbers",
+        "current_number": "number",
+        "list_of_numbers": "numbers",
+        "final_result": "sum_of_even_numbers"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'x' is too vague; consider using 'total' to indicate its purpose clearly.",
+        "The variable 'items' is acceptable, but 'item_prices' would enhance clarity regarding the type of values it holds.",
+        "The loop variable 'z' should be renamed to something more descriptive, like 'price', to reflect the contents of 'items'."
+    ],
+    "mapping": {
+        "x": "total",
+        "items": "item_prices",
+        "z": "price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'sum' is misleading as it shadows the built-in 'sum' function in Python. Consider using 'total_sum' or 'total' for clarity.",
+        "The variable 'lst' is too ambiguous. A more descriptive name like 'prices_list' or 'price_array' would improve clarity about its contents.",
+        "The variable 'item' is acceptable, but using 'price' instead could enhance clarity regarding what each element represents in the context of the prices."
+    ],
+    "mapping": {
+        "sum": "total_sum",
+        "lst": "prices_list",
+        "item": "price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'total_price' is clear and descriptive, indicating its purpose well.",
+        "The list 'item_prices' accurately represents its content, but could be named 'prices' for brevity since it only holds prices.",
+        "The variable 'price' in the loop is sufficiently descriptive, but consider renaming it to 'current_price' for added clarity about its context."
+    ],
+    "mapping": {
+        "item_prices": "prices",
+        "price": "current_price"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'accumulated_total' is clear but could be simplified to 'total' for brevity.",
+        "'shopping_cart_item_prices' is descriptive, but using 'item_prices' would be more concise while still indicating its purpose.",
+        "'item_price' is appropriately named for its context within the loop as it clearly represents a single price, keep it as is."
+    ],
+    "mapping": {
+        "accumulated_total": "total",
+        "shopping_cart_item_prices": "item_prices"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'a' is too ambiguous; consider using 'numbers' or 'data' for clarity.",
+        "The variable 'total' is appropriately named as it clearly describes its purpose.",
+        "The variable 'count' is clear, but 'item' could be more descriptive; consider using 'number' or 'value' to specify what it represents."
+    ],
+    "mapping": {
+        "a": "numbers",
+        "item": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'temp' is vague; consider using a more descriptive name like 'sum_of_elements' to reflect its purpose.",
+        "The parameter 'a' lacks clarity; using a name like 'elements' or 'numbers_list' would provide better context for its role as input.",
+        "The variable name 'i' is acceptable as it is commonly used for counters in loops, but if more context is needed, consider adding a prefix like 'index_' for clarity.",
+        "The name 'e' is commonly used for elements in loops, but consider a more descriptive name like 'element' or 'current_element' for better readability."
+    ],
+    "mapping": {
+        "temp": "sum_of_elements",
+        "a": "elements",
+        "i": "index",
+        "e": "current_element"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'total_sum' is clear and descriptive, accurately describing its purpose.",
+        "The variable 'total_count' is also clear, but could be simplified to 'count' for brevity since it's evident from context.",
+        "The variable 'number' is generic; consider using 'current_number' or 'value' to clarify its role in the loop.",
+        "Using a plural form like 'numbers_list' instead of 'numbers' could clarify that it contains multiple values."
+    ],
+    "mapping": {
+        "total_count": "count",
+        "number": "current_number",
+        "numbers": "numbers_list"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'sum_of_numbers' is clear and descriptive, effectively conveying its purpose.",
+        "Consider renaming 'total_elements' to 'count_of_numbers' for better clarity on what is being counted.",
+        "'single_number' is a good choice; however, 'number' could be more descriptive, such as 'current_number' or 'current_element', to indicate its position in the loop."
+    ],
+    "mapping": {
+        "total_elements": "count_of_numbers",
+        "single_number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'x' could be more descriptive; consider naming it 'inputNumber' or 'factorialInput'.",
+        "The variable 'result' is clear but could be better aligned with its purpose; consider 'factorialResult' for further clarity.",
+        "Using 'n' is acceptable as it is a common convention for recursive functions, but a more descriptive name like 'number' could enhance clarity."
+    ],
+    "mapping": {
+        "x": "inputNumber",
+        "result": "factorialResult",
+        "n": "number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'a' could be renamed to 'number' for better clarity about its purpose.",
+        "The variable 'y' should have a more descriptive name, like 'inputNumber' to indicate it is the input for the calculation.",
+        "The variable 'output' is clear, but could also be more descriptive, such as 'factorialResult' to reflect the specific output of the function."
+    ],
+    "mapping": {
+        "a": "number",
+        "y": "inputNumber",
+        "output": "factorialResult"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'num' in the function could be more descriptive, such as 'input_number' or 'number_to_calculate'.",
+        "'input_number' is clear but could be renamed to 'input_value' for consistency with similar variable naming.",
+        "'factorial_result' is descriptive and indicates the output of the calculation effectively."
+    ],
+    "mapping": {
+        "num": "number_to_calculate",
+        "input_number": "input_value"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'integer_value' accurately describes the purpose but could be simplified to 'value' for conciseness.",
+        "Consider renaming 'user_input_number' to 'input_number' for clarity, as 'user' is implied in this context.",
+        "'computed_factorial_value' is descriptive, but a shorter alternative like 'factorial' would enhance readability."
+    ],
+    "mapping": {
+        "integer_value": "value",
+        "user_input_number": "input_number",
+        "computed_factorial_value": "factorial"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'x' is too vague; consider renaming it to 'upper_limit' for clarity.",
+        "The variable 'total' is appropriately named but could be more descriptive as 'sum_total' to clarify its function.",
+        "The variable 'y' in the loop should have a more descriptive name based on its purpose; consider 'current_number'."
+    ],
+    "mapping": {
+        "x": "upper_limit",
+        "total": "sum_total",
+        "y": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable name 'a' should be more descriptive; consider naming it 'upper_limit' or 'max_number'.",
+        "The variable name 'res' lacks clarity; a more descriptive name like 'sum_total' would improve understanding.",
+        "The variable name 'b' could be improved by using a name such as 'current_number' to clarify its role in the summation process."
+    ],
+    "mapping": {
+        "a": "upper_limit",
+        "res": "sum_total",
+        "b": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'sum_result' is somewhat descriptive but can be simplified to 'total_sum' for clarity.",
+        "'number' is a suitable name, but consider 'current_number' for better clarity of its role in the summation process.",
+        "The function name 'calculate_sum' effectively communicates its purpose; keep it as is.",
+        "Consistent naming in the context would help: consider using 'total' instead of 'sum_result' to align with 'result'."
+    ],
+    "mapping": {
+        "sum_result": "total_sum",
+        "number": "current_number"
+    }
+}
+```
+{
+    "feedback": [
+        "The variable 'count' is clear, but could be more descriptive, e.g., 'number_of_terms'.",
+        "'total_sum' is well-named as it indicates its purpose clearly.",
+        "'current_number' is descriptive but could be simplified to 'number' or 'current_value' to enhance readability.",
+        "Consider using 'result' instead of 'final_result' for consistency since it's the only output of the function."
+    ],
+    "mapping": {
+        "count": "number_of_terms",
+        "current_number": "number",
+        "final_result": "result"
+    }
+}
