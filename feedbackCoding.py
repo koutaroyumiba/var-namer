@@ -86,7 +86,9 @@ def coding(i, sample):
     print("---")
     for point in sample["feedback"]:
         print(f"- {point}")
-    print(sample["mapping"])
+    print("Suggested Improvements")
+    for old, new in sample["mapping"].items():
+        print(f"    {old} -> {new}")
     print()
 
     for i, question in enumerate(questions):
