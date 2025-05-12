@@ -31,7 +31,10 @@ pip install openai
 python3 feedbackCoding.py
 ```
 
-This will start the program which will output each sample (in random order) in the following output:
+This will start the program which will first prompt you to specify the output file (will be outputted to `./data/{output}.csv`)
+
+Then the program will output each sample (in random order) in the following output:
+
 ```
 [iteration]/200 == problem_id [problem_id] ==>
 
@@ -48,3 +51,5 @@ Correctness (Prior): [user input]
 Correctness (After): [user input]
 Justification: [user input]
 ```
+
+The results will be parsed into CSV and outputted into the `./data/` directory.
