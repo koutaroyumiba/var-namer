@@ -134,7 +134,7 @@ def main():
     feedback = combine_data(filemap)
     shuffle(feedback)
 
-    name = input("output file: ")
+    name = input("output file: ").lower()
 
     res = {i: [[0, 0, 0, 0], [0, 0, 0, 0]] for i in range(100)}
 
