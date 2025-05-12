@@ -70,9 +70,9 @@ def combine_data(files):
 def coding(i, sample):
     questions = [
         "Actionability: ",
+        "Justification: ",
         "Correctness (Prior): ",
         "Correctness (After): ",
-        "Justification: ",
     ]
 
     rating = [-1, -1, -1, -1]
@@ -105,19 +105,52 @@ def coding(i, sample):
     return rating
 
 
+def format_for_csv(result_dictionary):
+    # actionability, correctness (pre), correctness (after), justification
+    res = [
+        "problem_id,actionability1,actionability2,justification1,justification2,c(pre)1,c(pre)2,avg(c(pre)),c(after)1,c(after2)"
+    ]
+    print(result_dictionary)
+    for key, value in result_dictionary.items():
+        # actionability, justification, c(pre), c(after)
+        current = [str(key)]
+        no_context, context = value
+        current.append(str(no_context[0]))
+        current.append(str(context[0]))
+        current.append(str(no_context[1]))
+        current.append(str(context[1]))
+        current.append(str(no_context[2]))
+        current.append(str(context[2]))
+        current.append(str((no_context[2] + context[2]) / 2))
+        current.append(str(no_context[3]))
+        current.append(str(context[3]))
+        res.append(",".join(current))
+
+    return "\n".join(res)
+
+
 def main():
     filemap = ["./data/data.in", "./data/nocontext.out", "./data/context.out"]
 
     feedback = combine_data(filemap)
     shuffle(feedback)
 
-    res = {i: [0, 0] for i in range(100)}
+    name = input("output file: ")
+
+    res = {i: [[0, 0, 0, 0], [0, 0, 0, 0]] for i in range(100)}
 
     for i, fb in enumerate(feedback):
         rating = coding(i, fb)
         res[fb["problem_id"]][fb["type"]] = rating
 
-    print(res)
+    str_res = format_for_csv(res)
+
+    with open(f"./data/{name}.csv", "w") as f:
+        print("string res")
+        print(str_res)
+        f.write(str_res)
+
+    print("Completed")
 
 
 if __name__ == "__main__":
