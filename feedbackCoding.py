@@ -108,9 +108,8 @@ def coding(i, sample):
 def format_for_csv(result_dictionary):
     # actionability, correctness (pre), correctness (after), justification
     res = [
-        "problem_id,actionability1,actionability2,justification1,justification2,c(pre)1,c(pre)2,avg(c(pre)),c(after)1,c(after2)"
+        "problem_id,actionability1,actionability2,justification1,justification2,c(pre)1,c(pre)2,avg(c(pre)),c(after)1,c(after)2"
     ]
-    print(result_dictionary)
     for key, value in result_dictionary.items():
         # actionability, justification, c(pre), c(after)
         current = [str(key)]
@@ -146,8 +145,6 @@ def main():
     str_res = format_for_csv(res)
 
     with open(f"./data/{name}.csv", "w") as f:
-        print("string res")
-        print(str_res)
         f.write(str_res)
 
     print("Completed")
