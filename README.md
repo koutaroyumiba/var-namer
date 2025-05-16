@@ -22,6 +22,8 @@ source venv/bin/activate # sorry windows users...
 # install dependencies - hopefully these are the only ones
 pip install dotenv
 pip install openai
+pip install numpy
+pip install pandas
 ```
 
 ### Coding
