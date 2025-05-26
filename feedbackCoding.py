@@ -1,10 +1,25 @@
-"""Script to make coding the feedback easier"""
+"""A script to make coding of feedback easier.
+
+Usage:
+```bash
+python3 feedbackCoding.py
+```
+
+- the program will first ask for an output file (this is where the data goes)
+    - more specifically, it will go to `./data/{output_file}.csv`
+- the program will then iterate through all feedback and ask to rate actionability, justification and correctness of the generated response
+"""
 
 import json
 from random import shuffle
 
 
 def parse_file(filename):
+    """Parse {filename}
+
+    Parses a file that is in a specific format:
+    - code blocks that are split by ```
+    """
     parsed_data = []
     with open(filename, "r") as f:
         input_file = f.read().split("```")
